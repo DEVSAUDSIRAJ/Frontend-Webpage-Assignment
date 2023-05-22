@@ -1,0 +1,94 @@
+body{
+    margin: 0%;
+    background-image: url("./bg.webp");
+    height: 110vh;
+}
+header{
+    padding: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: sticky;
+    top: 0%;
+}
+.logoBox{
+    display: inline-block;
+    width: 120px;
+    font-size: larger;
+    font-weight:600;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.logoBox:hover{
+    color: salmon;
+}
+.navBox{
+    width: 600px;
+    position: absolute;
+    right: 20px;
+    display: inline-block;
+}
+.navBox>a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    transform: all 0.5s;
+}
+.navBox>a:hover{
+    color: salmon;
+}
+#homie{
+    color: salmon;
+}
+.heading{
+    color: salmon;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 60px;
+    left: 70px;
+    width: 500px;
+}
+.heading+h3{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    position: relative;
+    left: 70px;
+    width: 500px;
+
+}
+.heading+h3+p{
+    color: rgba(255, 255, 255, 0.73);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    position: relative;
+    font-weight:600;
+    left: 80px;
+    word-spacing: 4px;
+    top: 20px;
+    width: 400px;
+}
+.btn{
+    width: 150px;
+    padding: 15px;
+    border: 2px solid salmon;
+    background-color: salmon;
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 80px;
+    top: 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.btn:hover{
+    background-color: rgba(250, 128, 114, 0);
+    color: white;
+}
+footer{
+    color: white;
+    position: fixed;
+    bottom: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
